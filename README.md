@@ -26,8 +26,10 @@ pip install -r requirements.txt
 ## Processo
 A tabela com os dados está disponível em:
 
+```
 ./dados/
 └── tabela.tsv
+```
 
 Todos os códigos desenvolvidos foram devidamente documentados no arquivo "main.ipynb" e separados em:
 - Carregamento dos dados
@@ -38,11 +40,12 @@ Todos os códigos desenvolvidos foram devidamente documentados no arquivo "main.
 ## Resultados
 Todos os resultados se encontram disponíveis em:
 
-./resultados/
-└── genero_abundancia_relativa.tsv (tabela com a abundância relativa de cada gênero)
-└── grafico_barras_empilhadas.html (gráfico de barras empilhadas da distribuição dos gêneros nas duas amostras)
-└── heatmap.html (outra sugestão de gráfico)
-└── sankey.html (outra sugestão de gráfico)
-└── relatorio.html (relatório automatizado com os resultados)
-└── Resultados e discussão.docx (resultados e discussão)
-
+```
+resultados/
+├── genero_abundancia_relativa.tsv   # Tabela com a abundância relativa de cada gênero
+├── grafico_barras_empilhadas.html   # Gráfico de barras empilhadas da distribuição dos gêneros
+├── heatmap.html                     # Mapa de calor para visualização dos dados
+├── sankey.html                       # Diagrama de Sankey para análise de fluxo de abundância
+├── relatorio.html                    # Relatório automatizado consolidando os resultados
+└── Resultados_e_Discussao.docx       # Documento com a análise e discussão dos resultados
+```
